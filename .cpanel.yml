@@ -1,6 +1,6 @@
 ---
   deployment:
     tasks:
-      - export DEPLOYPATH=/home/public_html/timandsonya/
+      - export DEPLOYPATH=/home/integrr0/public_html/timandsonya/
       - /bin/cp index.html $DEPLOYPATH
       - /bin/cp -R css $DEPLOYPATH
